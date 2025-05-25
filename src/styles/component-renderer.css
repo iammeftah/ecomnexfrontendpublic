@@ -1,0 +1,17 @@
+/* Component Renderer Styles */
+.component-style-wrapper {
+    /* This ensures styles are properly contained */
+    all: initial;
+    display: contents;
+}
+
+.component-preview-container {
+    /* This ensures the preview container doesn't interfere with component styles */
+    display: block;
+    width: 100%;
+}
+
+.component-renderer-wrapper {
+    /* This ensures the renderer wrapper doesn't interfere with component styles */
+    display: contents;
+}
